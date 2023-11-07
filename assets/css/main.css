@@ -2329,3 +2329,10 @@ input, select, textarea {
 .content34{
 	padding: auto;
 }
+
+@media screen and (max-width: 480px) {
+	images{
+		width:100%;
+	}
+
+}
