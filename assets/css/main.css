@@ -2135,7 +2135,7 @@ input, select, textarea {
 				.main.style2 .content {
 					width: 100%;
 					max-width: 100%;
-					text-align: center;
+					text-align: left;
 					-moz-transform: none;
 					-webkit-transform: none;
 					-ms-transform: none;
@@ -2332,7 +2332,23 @@ input, select, textarea {
 
 @media screen and (max-width: 480px) {
 	images{
-		width:100%;
+		width:fit-content;
+		height: 100%;
 	}
 
 }
+
+@media screen and (max-width: 480px) {
+	.btn1 ul{
+		text-align: left;
+		display: block;
+		list-style: circle;
+		position: absolute;
+		background-position: top left, left left;
+	}
+	btn3{
+		text-align: left;
+	}
+
+}
+
